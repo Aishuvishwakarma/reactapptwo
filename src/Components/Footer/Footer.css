@@ -1,0 +1,155 @@
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+.join{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .join h2{
+    font-size: 5rem;
+    color: #fff;
+}
+.footer .join p{
+    color: rgb(251, 83, 83);
+}
+.footer .join  button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color:#fdfdfd ;
+    color:rgb(251, 83, 83);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-top: 10px;
+}
+.footer .join  button:hover{
+    padding: 10px 50px;
+}
+.links{
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkbx{
+    width: 150px;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.linkbx a{
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-decoration: none;
+    border-bottom: 1px solid #ff3edf;
+}
+.linkbx:nth-child(2){
+    height: 30%;
+}
+.cardselem{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(242, 255, 58);
+    transition: .5s ease-in-out;
+}
+#elem1{
+    bottom: -30%;
+    left: 40%;
+    transform: rotate(20deg);
+    z-index: 1;
+}
+#elem1:hover{
+    bottom: 0;
+}
+#elem2{
+    bottom: -30%;
+    right: 40%;
+    transform: rotate(-20deg);
+    background-color: rgb(255, 75, 43);
+    z-index: 2;
+}
+#elem2:hover{
+    bottom: 0;
+}
+#elem3{
+    bottom: -40%;
+    left: 30%;
+    transform: rotate(30deg);
+    background-color: rgb(85, 246, 133);
+    z-index: 3;
+}
+#elem3:hover{
+    bottom: 0;
+}
+#elem4{
+    bottom: -38%;
+    left: 35%;
+    transform: rotate(15deg);
+    background-color: rgb(72, 117, 241);
+    z-index: 4;
+}
+#elem4:hover{
+    bottom: 0;
+}
+#elem5{
+    bottom: -38%;
+    left: 28%;
+    transform: rotate(0deg);
+    background-color: rgb(241, 120, 72);
+    z-index: 1;
+}
+#elem5:hover{
+    bottom: 0;
+}
+#elem6{
+    bottom: -38%;
+    left: 50%;
+    transform: rotate(-5deg);
+    background-color: rgb(97, 72, 241);
+    z-index: 6;
+}
+#elem6:hover{
+    bottom: 0;
+}
+#elem7{
+    bottom: -36%;
+    right: 30%;
+    transform: rotate(15deg);
+    background-color: rgb(255, 192, 181);
+    z-index: 2;
+}
+#elem7:hover{
+    bottom: 0;
+}
+#elem8{
+    bottom: -30%;
+    right: 30%;
+    transform: rotate(-10deg);
+    background-color: rgb(243, 73, 200);
+    z-index: 1;
+}
+#elem8:hover{
+    bottom: 0;
+}
+#elem9{
+    bottom: -36%;
+    right: 25%;
+    transform: rotate(10deg);
+    background-color: rgb(73, 243, 158);
+    z-index: 1;
+}
+#elem9:hover{
+    bottom: 0;
+}
